@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.codepath.simpletodo.EditItemActivity">
+
+    <TextView
+        android:id="@+id/editItemLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/edit_item_below"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+    <EditText
+        android:id="@+id/editItemText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/editItemLabel"
+        android:layout_alignStart="@id/editItemLabel"
+        android:layout_below="@id/editItemLabel"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textMultiLine">
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/editItemText"
+        android:layout_alignStart="@id/editItemText"
+        android:layout_below="@id/editItemText"
+        android:layout_marginTop="24dp"
+        android:onClick="onSaveButtonClick"
+        android:text="@string/button.save" />
+</RelativeLayout>
