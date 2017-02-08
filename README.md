@@ -14,4 +14,4 @@ To delete an item: long tap the appropriate item in the list.
 
 Here is a video of app functionality:
 <br/><br/>
-<img src="https://drive.google.com/file/d/0B6GbhqaditKnYmd3QzVqQ3V4aGM/view?usp=sharing"/>
+<img src="https://github.com/Orina/SimpleTodo/blob/master/app/simpleTodo.gif"/>
