@@ -13,5 +13,5 @@ To update an item: just click on the approptiate item in the list and app will d
 To delete an item: long click on the appropriate item in the list.
 
 Here is a video of app functionality:
-<br/>
+<br/><br/><br/>
 <img src="https://lh5.googleusercontent.com/ybwF9JSZjwmAcnDjsC0KG4EFHN3TGVX9PJNDXjz9OFQThNnW9y54saP7iO2Z6xxM9QtRAoCY7qwCOL8=w1920-h879"/>
